@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello IntelliJ");
+        Fraction f = new Fraction(4,6);
+        System.out.println(f.getDenum());
     }
 }
