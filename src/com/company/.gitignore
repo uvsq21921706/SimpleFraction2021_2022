@@ -1,0 +1,30 @@
+#ne pas suivre les fichier issus de la compilation
+
+*.class
+*.o
+*.a
+
+#ne pas suivre les fichier cachés
+
+*.
+*..
+
+#ne pas suivre les fichier cachés
+
+*.jar
+*.cfg
+*.htm
+*.html
+*.shtml
+*.jhm
+
+#Dossier qui contient les fichiers de compilation
+
+target/
+aout/
+
+# IDE IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
